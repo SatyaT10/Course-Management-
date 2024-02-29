@@ -1,0 +1,23 @@
+{
+  "name": "course-management-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Satya",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bullmq": "^5.1.11",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.2",
+    "nodemailer": "^6.9.9",
+    "randomstring": "^1.3.0",
+    "redis": "^4.6.13"
+  }
+}
